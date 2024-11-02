@@ -1,0 +1,92 @@
+*{
+    
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+    margin: 0;
+    padding: 0;
+}
+.main{
+    border: 3px solid rgba(202, 189, 189, 0.527);
+    margin: 3vw;
+    padding:10vw;
+    position:relative;
+    top: 0px;
+    width: 17vw;
+    height: 35vw;
+    border-radius: 13px;
+    left: 30%;
+
+
+}
+#pic{
+  position: absolute;  
+  top: 0%;
+  left: 0%;
+  width: 96%;
+  border: 0px solid white;
+  border-radius: 15px;
+  margin: 2%;
+
+}
+#nav li{
+    padding: 7px;
+    
+}
+#nav{
+    
+    display: flex;
+    list-style: none;
+    position: absolute;
+    top: 48%;
+    left: 6%;
+    font-size: 2vw;
+    width: 20%;
+    color: grey;
+    font-family: "Inter", sans-serif;
+}
+#title{
+    position: absolute;
+    top: 58%;
+    left: 4%;
+    font-size: 3.5vw;
+    font-family: "Inter", sans-serif;
+}
+#para{
+    position: absolute;
+    top: 68%;
+    left:4% ;
+    right: 4%;
+    height:21%;
+    /* text-overflow: ellipsis; */
+    overflow: hidden;
+    color: gray;
+    font-family: "Inter", sans-serif;
+    font-size: 2vw;
+}
+.para:hover{
+    position: absolute;
+    top: 68%;
+    left:4% ;
+    right: 4%;
+    height:21%;
+    /* text-overflow: clip; */
+    overflow:auto;
+    color: gray;
+    font-family: "Inter", sans-serif;
+}
+#Read{
+    position: absolute;
+    top: 92%;
+    font-family: "Inter", sans-serif;
+    left: 35%;
+    color: #1176db;
+    font-size: 2vw;
+    background-color: #1176db5f;
+    padding:1vw;
+    border: 0px hidden ;
+    border-radius: 20px;
+    bottom: 10px;
+    
+}
+
+    
